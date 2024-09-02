@@ -1,0 +1,38 @@
+[
+    {
+        "match": "1",
+        "fecha": "2023-09-04", 
+        "rival": "vs. Ecuador (L)",
+        "capitan": "Enner Valencia"
+    },
+    {
+        "match": "2",
+        "fecha": "2023-09-11",
+        "rival": "vs. Bolivia (V)",
+        "capitan": "Marcelo Martins"
+    },
+    {
+        "match": "3",
+        "fecha": "2023-10-15",
+        "rival": "vs. Paraguay (L)",
+        "capitan": "Gustavo Gómez Portillo"
+    },
+    {
+        "match": "4",
+        "fecha": "2023-10-22",
+        "rival": "vs. Perú (V)",
+        "capitan": "Pedro Gallese"
+    },
+    {
+        "match": "5",
+        "fecha": "2023-11-19",
+        "rival": "vs. Uruguay (L)",
+        "capitan": "Federico Valverde"
+    },
+    {
+        "match": "6",
+        "fecha": "2023-11-26",
+        "rival": "vs. Brasil (V)",
+        "capitan": "Carlos Henrique Casimiro"
+    }
+]

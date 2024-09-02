@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/decorador.css" type="text/css" media="screen"/>
+    <title>ModificacionJugadores</title>
+</head>
+<body class="modificacion">
+    <H1 class="titulomodicacion">Modificar datos de Jugador</H1>
+    <form class="formodificacion">
+        <fieldset>
+            <label >Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+            
+            <label >Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br>
+            
+            <label>Documento de identidad:</label> 
+            <input type="text" id="dni" name="dni"><br>        
+            
+            <label >Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha"><br>
+
+            <label>Posición</label>
+            <input list="posicion" id="position" name="posicion">
+            <datalist id="posicion">
+                <option value="Portero"></option>
+                <option value="Defensa central"></option>
+                <option value="Lateral izquierdo"></option>
+                <option value="Lateral derecho"></option>
+                <option value="Pivote"></option>
+                <option value="Mediocentro"></option>
+                <option value="Mediocentro ofensivo"></option>
+                <option value="Extremo izquierdo"></option>
+                <option value="Extremo derecho"></option>
+                <option value="Mediapunta"></option>
+                <option value="Delantero centro"></option>
+            </datalist><br>
+        
+            <label >Apodo:</label>
+            <input type="text" id="apodo" name="apodo"><br>
+        
+            <label for="dorsal">Dorsal (número de camiseta):</label>
+            <input type="number" id="dorsal" name="dorsal"><br>
+
+            <label >Pie hábil:</label>
+            <input list="piehabil" id="pie" name="Pie">
+            <datalist id="piehabil" >
+                <option value="Derecho"></option>
+                <option value="Izquierdo"></option>
+            </datalist>
+        </fieldset>
+        <button id="guardar" > Guardar </button>
+    </form>
+    <script>
+        window.addEventListener("load", function () {
+            completarDatos();
+        });
+
+
+        function completarDatos(){
+            const dorsalModificar = parseInt(localStorage.getItem('editar'));
+            console.log(dorsalModificar);
+            const jsonFutbolistas = localStorage.getItem('jugadores');
+            const jsonData = JSON.parse(jsonFutbolistas);
+            
+            const jugador = jsonData.find(item => item.Dorsal == dorsalModificar );
+            console.log(jugador);
+            document.getElementById('dni').value = jugador.DNI;
+            document.getElementById('nombre').value = jugador.Nombre;
+            document.getElementById('apellido').value = jugador.Apellido;
+            document.getElementById('fecha').value = jugador.FechaDeNacimiento;
+            document.getElementById('position').value = jugador.Posicion;
+            document.getElementById('apodo').value = jugador.Apodo;
+            document.getElementById('dorsal').value =jugador.Dorsal;
+            document.getElementById('pie').value = jugador.PieHabil;
+        };
+
+        document.getElementById('guardar').addEventListener('click',guadarcambio);
+
+        function guadarcambio(){
+            const jsonFutbolistas= localStorage.getItem('jugadores');
+            const jsonData = JSON.parse(jsonFutbolistas);
+                
+            const dorsalModificar = localStorage.getItem('editar');
+            const futbolistaFiltrado= jsonData.filter( function(item){
+                return item.Dorsal != dorsalModificar;
+            });
+              
+            const futbolistaNuevo = {
+            'DNI': document.getElementById('dni').value,
+            'Nombre': document.getElementById('nombre').value,
+            'Apellido': document.getElementById('apellido').value,
+            'FechaDeNacimiento': document.getElementById('fecha').value,
+            'Posicion': document.getElementById('position').value,
+            'Apodo': document.getElementById('apodo').value,
+            'Dorsal': document.getElementById('dorsal').value,
+            'PieHabil': document.getElementById('pie').value,
+            }
+
+            futbolistaFiltrado.push(futbolistaNuevo);
+        
+            localStorage.removeItem('jugadores');
+            const guardar = JSON.stringify(futbolistaFiltrado);
+            localStorage.setItem('jugadores', guardar);
+            
+            alert('Se actualizaron los datos con exito') 
+        }
+    </script>
+</body>
+</html>

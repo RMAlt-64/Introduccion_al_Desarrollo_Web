@@ -1,0 +1,379 @@
+.titulo-principal{
+  background-image: linear-gradient(120deg,  #22c1c3, #fdfdfd);
+  padding: 26px;
+  border-style:solid;
+  border-color: rgb(148, 137, 137);
+  border-radius: 10px;
+  border-width: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 3px 3px 3px #3C3C3C;
+  font-size: 46px;
+  text-transform: uppercase;
+  color: white;
+}
+ 
+.listahome{
+  list-style-type:none;
+  padding: 30px;
+  border-style:solid;
+  border-width: 3px;
+  border-color: rgb(148, 137, 137);
+  background-image: linear-gradient(to bottom, rgb(21, 197, 228,0.5), rgb(44, 41, 41));
+  border-radius: 10px;
+  font-style: italic;
+  position: absolute;
+  top: 130px;
+  width: 1285px; 
+  height: 100px;
+}
+
+.listahome a {
+  display: inline-block;
+  padding: 5px 10px; /* Añade un padding alrededor del enlace */
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  position: relative;
+  top:-12px;
+
+}
+.listahome a:hover {
+  background-color: rgb(14, 12, 12);
+}
+.pagina-index{
+  background-image: url("/Imagenes/bestweb.jpg");
+  background-size: 1400px 800px ;
+}
+.imag1{
+  position: relative;
+  left: 1200px;
+  top: -150px;
+  width: 100px; 
+  height: 128px;
+}
+.pie-centrado{
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  background: linear-gradient(90deg, #22c1c3, #a70ebb);
+}
+.pagina-2 {
+  background-image: url("/Imagenes/back_1.jpg");
+  background-size: cover;
+}
+.tituloPrincipal{
+  background-image: linear-gradient(120deg, #0A7475, #45FCFF);
+  padding: 10px;
+  width: 80%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  color: #F3F3F3
+}
+.pagina-2 nav{
+  display: flex;
+  background-image: linear-gradient(to bottom,  #22c1c3, #fdfdfd);
+  justify-content: space-between;
+  max-width: 79%;
+  font-size: 14px;
+  border-radius: 6px;
+  color:white;
+}
+.pagina-2 a:hover{
+  background-color: #555;
+}
+.pagina-2 section{
+  display: none;
+}
+.pagina-2 section.active {
+  display: block;
+}
+
+.pie-centrado-2{
+  float:inline-end;
+  text-align: center;
+  margin: 2px;
+  padding: 1px;
+  background-color: rgb(194, 191, 185);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#editar-jugador{
+  max-width: 85%;
+}
+
+.miTabla{
+  float: left;
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 81%;
+  max-height: 100px;    
+}
+.miTabla td, .miTabla th {
+  border: 2px solid #000;
+  padding: 5px;
+  background-color: white;
+}
+
+
+#opcion1{
+  background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+  padding: 10px;
+  width: 75%;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+.barra-1{
+  position:fixed;
+  right: 0%;
+  width: 20%;
+  background-image: linear-gradient(to bottom,  #22c1c3, #fdfdfd);
+  height: 100%;
+  top: 0%;
+}
+.barra-1 h1{
+  font-size:25px;
+  margin-top: 10.5%;
+  
+}
+.barra-1 article{
+  padding: 10px;
+}
+.barra-1 h2{
+  padding: 5px;
+}
+.barra-1 h4{
+  padding: 10px;
+}
+/* .contenedorTabla{
+  background-color: beige;
+  border: 1px solid #000;
+  padding: 8px;
+  width: 85%;
+  margin-top: 10px;
+  
+} */
+.fechas{
+  background-image: linear-gradient(to top, rgba(77, 214, 238, 0.5), rgb(245, 245, 245));
+  justify-content: center;
+  margin: 5px;
+  width: 92%
+}
+.fechas ul{
+  list-style-type:decimal-leading;
+}
+.fechas li{
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fechas h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 46px;
+}
+
+.cajatitulo{
+  border: 2px  solid rgb(240, 205, 8);
+  color: azure;
+  background-image: url("/Imagenes/AFA-argentina.png");
+  font-family:'Courier New', Courier, monospace;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  width: 5%;
+  height:600px;
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+  line-height: 60px;
+}
+
+.flex-main{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.foot{
+  border: 2px solid black;
+  background-color:rgb(148, 137, 137);
+  margin: 2px;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+.listado{
+  background-image: linear-gradient(to bottom, rgba(77, 214, 238, 0.5), rgb(245, 245, 245));
+  width: 91%;
+  text-align:left;
+  margin-left: 6%;
+  margin-top: -25%;
+  padding-left: 23px;
+}
+.listado li{
+  list-style: none;
+  font-size: 19px;
+  font-weight: 350;
+}
+.listado img{
+  width: 40px;
+  height: 40px;
+}
+.listado h4{
+  font-size: 23px;
+}
+.listado h2{
+  font-size: 32px; 
+}
+#conv{
+  background-image: url("/Imagenes/78-86-22.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  background-image: repeating-radial-gradient(rgb(77,214,238), rgb(245,245,245));
+}
+
+.cajalocal{
+  
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  float: left;
+}
+ 
+.cajalocal img{
+  width: 160px;
+  height: 160px;
+  vertical-align: middle;
+}
+.box-conteiner{
+  background-color: #099c1d;
+  border:1px solid black;
+  display: flex;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto; 
+}
+
+
+.main-buscardor{
+  display: flex;
+  width: 350px;
+  height: 100px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+  background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+  align-items: center;
+  border-radius: 5px;
+  border-style: solid;
+  color: white;
+}
+
+.formodificacion{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+  background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+  font-size: 18px;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.modificacion {
+  background-image: url("/Imagenes/back_1.jpg")
+}
+.titulomodicacion{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactoBody {
+  background-color: rgb(4, 34, 64);
+  color: white;
+}
+.principalContenedor{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contenedorn1{
+  text-align: center;
+  
+}
+.titulo{
+  font-size: 120px;
+  font-family: point system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+.contenedorn1 p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  position: relative;
+  margin-top: -20px;
+  
+}
+.socialmedia{
+  list-style: none;
+}
+.leyenda p{
+  font-size: 12px;
+}
+.leyenda{
+  text-align: center;
+  margin-bottom: 0%;
+}
+.leyenda a:hover{
+  background-color: white;
+}
+
+
+
+
+.contenedor1{
+  background-color: rgb(4, 34, 64);
+}
+.contenedor1 h1{
+  font-size: 50px;
+  color: white;
+}
+
+
+.contenedor1{
+  background-color: rgb(4, 34, 64);
+}
+.contenedor1 h1{
+  font-size: 50px;
+  color: white;
+}
+
+.apibackground{
+  background-color: rgb(4, 34, 64)
+}
+.apibackground h1,h3,p{
+  color:white;
+  font-style: italic;
+  
+}
+.apibackground img{
+
+  max-width: 400px;
+}
+
+#leerConvocatoria{
+  float: right;
+  margin: 20px 20px;
+}
+
+.pagina-2 h1{
+  color: white;
+}

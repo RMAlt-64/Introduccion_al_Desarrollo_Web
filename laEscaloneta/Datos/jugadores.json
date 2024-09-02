@@ -1,0 +1,262 @@
+[
+    {
+        "DNI": "35418290",
+        "Nombre": "Emiliano",
+        "Apellido": "Martínez",
+        "FechaDeNacimiento": "1992-09-02",
+        "Posicion": "Portero",
+        "Apodo": "El Dibu",
+        "Dorsal": "23",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "38409027",
+        "Nombre": "Julián",
+        "Apellido": "Álvarez",
+        "FechaDeNacimiento": "2000-01-31",
+        "Posicion": "Delantero centro",
+        "Apodo": "La araña",
+        "Dorsal": "9",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "34567890",
+        "Nombre": "Cristian",
+        "Apellido": "Romero",
+        "FechaDeNacimiento": "1998-04-27",
+        "Posicion": "Defensa central",
+        "Apodo": "Cuti Romero",
+        "Dorsal": "13",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "39540786",
+        "Nombre": "Alexis ",
+        "Apellido": "Mac Allister",
+        "FechaDeNacimiento": "1998-12-24",
+        "Posicion": "Mediocentro",
+        "Apodo": "El Colo",
+        "Dorsal": "20",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "58444018",
+        "Nombre": "Ángel",
+        "Apellido": "Di María",
+        "FechaDeNacimiento": "1988-02-14",
+        "Posicion": "Mediocentro",
+        "Apodo": "Fideo",
+        "Dorsal": "11",
+        "PieHabil": "Izquierdo"
+    },
+    {
+        "DNI": "19748620",
+        "Nombre": "Gerónimo  ",
+        "Apellido": "Rulli",
+        "FechaDeNacimiento": "1992-05-20",
+        "Posicion": "Portero",
+        "Apodo": "Rulli",
+        "Dorsal": "12",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "89227744",
+        "Nombre": "Franco",
+        "Apellido": "Armani",
+        "FechaDeNacimiento": "1986-10-16",
+        "Posicion": "Portero",
+        "Apodo": "Pulpo",
+        "Dorsal": "1",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "96898272",
+        "Nombre": "Nicolás",
+        "Apellido": "Tagliafico",
+        "FechaDeNacimiento": "1992-08-31",
+        "Posicion": "Lateral izquierdo",
+        "Apodo": "Taglia",
+        "Dorsal": "3",
+        "PieHabil": "Izquierdo"
+    },
+    {
+        "DNI": "40846733",
+        "Nombre": "Germán",
+        "Apellido": "Pezzella",
+        "FechaDeNacimiento": "1991-06-27",
+        "Posicion": "Defensa central",
+        "Apodo": "Diosito",
+        "Dorsal": "6",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "24021504",
+        "Nombre": "Nahuel",
+        "Apellido": "Molina",
+        "FechaDeNacimiento": "1998-04-06",
+        "Posicion": "Lateral derecho",
+        "Apodo": "Galgo",
+        "Dorsal": "26",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "55915017",
+        "Nombre": "Marcos",
+        "Apellido": "Acuña",
+        "FechaDeNacimiento": "1991-10-28",
+        "Posicion": "Lateral izquierdo",
+        "Apodo": "El huevo",
+        "Dorsal": "8",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "83195370",
+        "Nombre": "Gonzalo",
+        "Apellido": "Montiel",
+        "FechaDeNacimiento": "1997-01-01",
+        "Posicion": "Lateral derecho",
+        "Apodo": "Cachete",
+        "Dorsal": "4",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "81529490",
+        "Nombre": "Juan",
+        "Apellido": "Foyth",
+        "FechaDeNacimiento": "1998-01-12",
+        "Posicion": "Lateral derecho",
+        "Apodo": "La Momia",
+        "Dorsal": "2",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "21823534",
+        "Nombre": "Nicolás",
+        "Apellido": "Otamendi",
+        "FechaDeNacimiento": "1988-02-12",
+        "Posicion": "Defensa central",
+        "Apodo": "El Colo",
+        "Dorsal": "19",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "70446123",
+        "Nombre": "Lisandro",
+        "Apellido": "Martínez",
+        "FechaDeNacimiento": "1998-01-18",
+        "Posicion": "Mediocentro",
+        "Apodo": "El carnicero",
+        "Dorsal": "25",
+        "PieHabil": "Izquierdo"
+    },
+    {
+        "DNI": "62446737",
+        "Nombre": "Rodrigo",
+        "Apellido": "De Paul",
+        "FechaDeNacimiento": "1994-05-24",
+        "Posicion": "Mediocentro",
+        "Apodo": "Motorcito",
+        "Dorsal": "7",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "73742728",
+        "Nombre": "Leandro",
+        "Apellido": "Paredes",
+        "FechaDeNacimiento": "1994-06-29",
+        "Posicion": "Mediocentro",
+        "Apodo": "El Heredero",
+        "Dorsal": "5",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "68541587",
+        "Nombre": "Guido",
+        "Apellido": "Rodríguez",
+        "FechaDeNacimiento": "1994-04-12",
+        "Posicion": "Mediocentro",
+        "Apodo": "Chacal",
+        "Dorsal": "18",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "83273452",
+        "Nombre": "Enzo",
+        "Apellido": "Fernández",
+        "FechaDeNacimiento": "2001-01-17",
+        "Posicion": "Pivote",
+        "Apodo": "zorzal criollo",
+        "Dorsal": "24",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "62980294",
+        "Nombre": "Exequiel",
+        "Apellido": "Palacios",
+        "FechaDeNacimiento": "1998-10-05",
+        "Posicion": "Pivote",
+        "Apodo": "Pala",
+        "Dorsal": "14",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "46096120",
+        "Nombre": "Thiago",
+        "Apellido": "Almada",
+        "FechaDeNacimiento": "2001-04-26",
+        "Posicion": "Mediocentro ofensivo",
+        "Apodo": "El Guayo",
+        "Dorsal": "16",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "58943514",
+        "Nombre": "Lautaro",
+        "Apellido": "Martínez",
+        "FechaDeNacimiento": "1997-08-22",
+        "Posicion": "Delantero centro",
+        "Apodo": "Toro",
+        "Dorsal": "22",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "78753072",
+        "Nombre": "Paulo",
+        "Apellido": "Dybala",
+        "FechaDeNacimiento": "1993-11-15",
+        "Posicion": "Mediapunta",
+        "Apodo": "La joya",
+        "Dorsal": "21",
+        "PieHabil": "Izquierdo"
+    },
+    {
+        "DNI": "99317495",
+        "Nombre": "Lionel",
+        "Apellido": "Messi",
+        "FechaDeNacimiento": "1987-06-24",
+        "Posicion": "Mediapunta",
+        "Apodo": "La pulga",
+        "Dorsal": "10",
+        "PieHabil": "Izquierdo"
+    },
+    {
+        "DNI": "10258100",
+        "Nombre": "Ángel",
+        "Apellido": "Correa",
+        "FechaDeNacimiento": "1995-03-09",
+        "Posicion": "Delantero centro",
+        "Apodo": "Angelito",
+        "Dorsal": "15",
+        "PieHabil": "Derecho"
+    },
+    {
+        "DNI": "10258100",
+        "Nombre": "Alejandro",
+        "Apellido": "Gómez",
+        "FechaDeNacimiento": "1988-02-15",
+        "Posicion": "Mediapunta",
+        "Apodo": "Papu",
+        "Dorsal": "17",
+        "PieHabil": "Derecho"
+    }
+]

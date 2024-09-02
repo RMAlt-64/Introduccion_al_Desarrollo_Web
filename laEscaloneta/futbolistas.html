@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <script src="jvs/cargadatos.js"></script>
+    <link rel="stylesheet" href="/css/decorador.css" type="text/css" media="screen"/>
+    
+    <script src="sweetalert2/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2/sweetalert2.css">
+</head>
+<body class="pagina-2">
+    <header>
+        <h1 class="tituloPrincipal">Registro de jugadores</h1>
+    </header>
+    <nav>
+        <a href="#registrar-jugador" onclick="mostrarSeccion('registrar-jugador')"><h2>Registrar uno nuevo</h2></a>
+        <a href="#editar-jugador" onclick="mostrarSeccion('editar-jugador')"><h2>Editar los datos de uno existente</h2></a>
+        <a href="#modificacionJugadores" onclick="mostrarSeccion('modificarjugador')" ><h2>Modificar Jugador</h2></a>
+        <a href="#listado-completo" onclick="mostrarSeccion('listado-completo')" ><h2>Listado Completo De Jugadores</h2></a>
+    </nav>
+    <section id="registrar-jugador">
+        <h1>Agregar nuevo jugador</h1>
+        <form id="opcion1">
+            <fieldset>
+                <label >Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                
+                <label >Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br>
+                
+                <label>Documento de identidad:</label> 
+                <input type="text" id="dni" name="dni"><br>        
+                
+                <label >Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha"><br>
+
+                <label>Posición</label>
+                <input list="posicion" id="position" name="posicion">
+                <datalist id="posicion">
+                    <option value="Portero"></option>
+                    <option value="Defensa central"></option>
+                    <option value="Lateral izquierdo"></option>
+                    <option value="Lateral derecho"></option>
+                    <option value="Pivote"></option>
+                    <option value="Mediocentro"></option>
+                    <option value="Mediocentro ofensivo"></option>
+                    <option value="Extremo izquierdo"></option>
+                    <option value="Extremo derecho"></option>
+                    <option value="Mediapunta"></option>
+                    <option value="Delantero centro"></option>
+                </datalist><br>
+            
+                <label >Apodo:</label>
+                <input type="text" id="apodo" name="apodo"><br>
+            
+                <label for="dorsal">Dorsal (número de camiseta):</label>
+                <input type="number" id="dorsal" name="dorsal"><br>
+    
+                <label >Pie hábil:</label>
+                <input list="piehabil" id="pie" name="Pie">
+                <datalist id="piehabil" >
+                    <option value="Derecho"></option>
+                    <option value="Izquierdo"></option>
+                </datalist>
+            </fieldset>
+            <button id="enviar" type="button" > Enviar </button>
+        </form>
+        
+    </section>
+    <section id="editar-jugador">
+        <h1>Busqueda por nombre, apellido o número de camiseta</h1>
+        <div class="main-buscardor">
+            <label for="buscar">Buscar</label>
+            <input type="text" name="buscar" id="buscarjugador" size="15">
+            <button id = 'buscar'> Buscar Jugador</button>
+        </div>
+        <div class="contenedorTabla">
+            <table class="miTabla" id="tabla">
+                <thead>
+                    <tr>
+                        <th>DORSAL</th>
+                        <th>DNI</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>FECHA DE NACIMIENTO</th>
+                        <th>POSICIÓN</th>
+                        <th>APODO</th>
+                        <th>PIE HABIL</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo">
+                </tbody>
+            </table>
+        </div>
+        
+    </section>
+    <section id="modificarjugador">
+            <h1>Modificar datos de Jugador</h1>
+            <form class="formodificacion">
+                <fieldset>
+                    <label >Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    
+                    <label >Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    
+                    <label>Documento de identidad:</label> 
+                    <input type="text" id="dni" name="dni"><br>        
+                    
+                    <label >Fecha de Nacimiento:</label>
+                    <input type="date" name="fecha" id="fecha"><br>
+        
+                    <label>Posición</label>
+                    <input list="posicion" id="position" name="posicion">
+                    <datalist id="posicion">
+                        <option value="Portero"></option>
+                        <option value="Defensa central"></option>
+                        <option value="Lateral izquierdo"></option>
+                        <option value="Lateral derecho"></option>
+                        <option value="Pivote"></option>
+                        <option value="Mediocentro"></option>
+                        <option value="Mediocentro ofensivo"></option>
+                        <option value="Extremo izquierdo"></option>
+                        <option value="Extremo derecho"></option>
+                        <option value="Mediapunta"></option>
+                        <option value="Delantero centro"></option>
+                    </datalist><br>
+                
+                    <label >Apodo:</label>
+                    <input type="text" id="apodo" name="apodo"><br>
+                
+                    <label for="dorsal">Dorsal (número de camiseta):</label>
+                    <input type="number" id="dorsal" name="dorsal"><br>
+        
+                    <label >Pie hábil:</label>
+                    <input list="piehabil" id="pie" name="Pie">
+                    <datalist id="piehabil" >
+                        <option value="Derecho"></option>
+                        <option value="Izquierdo"></option>
+                    </datalist>
+                </fieldset>
+                <button id="guardar" > Guardar </button>
+            </form>
+    </section>
+    <section id="listado-completo">
+        <h1>Mostrar Jugadores</h1>
+        <button id ="mostarlista" >Muestra la lista de jugadores</button>
+        <div class="contenedorTabla">
+            <table class="miTabla" id="tabla">
+                <thead>
+                    <tr>
+                        <th>DORSAL</th>
+                        <th>DNI</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>FECHA DE NACIMIENTO</th>
+                        <th>POSICIÓN</th>
+                        <th>APODO</th>
+                        <th>PIE HABIL</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpodos">
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script id="datos-json" type="application/json">
+                [{  "DNI": "35418290",
+                    "Nombre": "Emiliano",
+                    "Apellido": "Martínez",
+                    "FechaDeNacimiento": "1992-09-02",
+                    "Posicion": "Portero",
+                    "Apodo": "El Dibu",
+                    "Dorsal": "30",
+                    "PieHabil": "Derecho"
+                },
+                {
+                    "DNI": "38409027",
+                    "Nombre": "Julián",
+                    "Apellido": "Álvarez",
+                    "FechaDeNacimiento": "2000-01-31",
+                    "Posicion": "Delantero centro",
+                    "Apodo": "La araña",
+                    "Dorsal": "23",
+                    "PieHabil": "Derecho" 
+                },
+                {
+                    "DNI": "34567890",
+                    "Nombre": "Cristian",
+                    "Apellido": "Romero",
+                    "FechaDeNacimiento": "27/04/1998",
+                    "Posicion": "Defensa central",
+                    "Apodo": "Cuti Romero",
+                    "Dorsal": "25",
+                    "PieHabil": "Derecho"
+                },
+                {
+                    "DNI": "39540786",
+                    "Nombre": "Alexis ",
+                    "Apellido": "Mac Allister",
+                    "FechaDeNacimiento": "24/12/1998",
+                    "Posicion": "Mediocentro",
+                    "Apodo": "El Colo",
+                    "Dorsal": "28",
+                    "PieHabil": "Derecho"
+                }]
+    </script>
+   
+
+    
+    <aside class="barra-1">
+            <h1>Historia</h1>
+            <h2>Orígenes</h2>
+            <h4>El fútbol, una pasión argentina</h4>
+            <article>La pasión por el fútbol no es casual. Argentina fue seguramente el más adelantado discípulo que tuvieron los ingleses en todo el mundo. Primero, desde los colegios, y luego de todos los rincones del país comenzaron a surgir jóvenes que tenían una rara comunión con la pelota. Fue así como empezaron a aparecer jugadores, a fundarse clubes y a sumarse los títulos. <br>
+            La Asociación del Fútbol Argentino es la más antigua de sus pares de Sudamérica y la octava del mundo. El fútbol de nuestro país no sólo fue el pionero de América en organizarse, sino que en 1912 se convirtió también en el primero del continente en afiliarse a la FIFA, el ente rector de este deporte a nivel universal. Una muestra más de una dirigencia líder y adelantada que marcó a fuego a las generaciones siguientes.</article>
+    </aside>
+    <footer>
+        
+    </footer>
+</body>
+</html>
