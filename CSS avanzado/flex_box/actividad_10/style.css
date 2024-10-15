@@ -1,0 +1,16 @@
+.cards{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 10em;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card-body{
+    flex-grow: 1;
+}

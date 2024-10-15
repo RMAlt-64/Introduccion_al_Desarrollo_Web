@@ -1,0 +1,21 @@
+.menu-main{
+    display: flex;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    height: 4em;
+    
+}
+ul > li{
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+   
+    
+}
+li > a {
+    text-decoration: dotted;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

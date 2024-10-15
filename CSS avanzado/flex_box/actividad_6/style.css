@@ -1,0 +1,8 @@
+.menu{
+    display:flex; 
+    flex-direction:column; 
+    width: 9em; 
+    background-color: aqua;
+    align-items: center;
+    min-height: 100vh;
+}

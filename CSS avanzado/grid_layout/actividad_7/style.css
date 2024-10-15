@@ -1,0 +1,36 @@
+.bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen1 {
+    grid-area: a;
+    background-image: url("https://placedog.net/500");
+}
+
+.imagen2 {
+    grid-area: b;
+    background-image: url("https://placedog.net/400");
+}
+
+.imagen3 {
+    grid-area: c;
+    background-image: url("https://placedog.net/600");
+}
+
+.imagen4 {
+    grid-area: d;
+    background-image: url("https://placedog.net/300");
+}
+
+.gallery {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "d d d d"
+        "a a b b"
+        "a a b b"
+        "c c c c";
+}
+    

@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+}
+
+.flex-item {
+    background-color: aqua;
+    border: solid 1px black;
+    margin: 1px;
+    flex-grow: 1;
+}
+.item-2{
+    flex-grow: 3; }

@@ -1,0 +1,33 @@
+body{
+    color: white;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-areas:  /*especificamos a que parte de layout corresponde ese nombre*/
+    "a a a a"
+    "c c b b"
+    "c c b b"
+    "d d d d";
+}
+
+
+.header{
+    background-color: burlywood;
+    grid-area: a; /*le daremos un nombre a cada area que conforma nuestro sitio web */
+}
+.main{
+    background-color:coral;
+    grid-area: b;
+}
+.sidebar{
+    background-color: cadetblue;
+    grid-area: c;
+}
+.footer{
+    background-color:grey;
+    grid-area: d;
+}

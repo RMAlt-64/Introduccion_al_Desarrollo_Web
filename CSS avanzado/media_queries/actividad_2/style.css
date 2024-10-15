@@ -1,0 +1,22 @@
+.grip-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.parrafo{
+    margin: 3px;
+    padding: 4px;
+    color: wheat;   
+    background-color: darkgreen; 
+}
+
+@media (min-width: 576px){
+    .grip-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .grip-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

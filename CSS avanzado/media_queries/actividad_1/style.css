@@ -1,0 +1,29 @@
+.btn{
+    background-color: blue;
+    color: aliceblue;
+    border: solid 1px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+@media (max-width:576px){
+    .btn{
+        border-radius: 15px ;
+        background-color: brown;
+    }
+    .parrafo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(9, 66, 190);
+    }
+}
+
+@media (min-width:768px){
+    .btn{
+        border-radius: 20px ;
+        background-color: rgb(88, 86, 86);
+    }
+    .parrafo{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(41, 156, 99);
+    }
+}

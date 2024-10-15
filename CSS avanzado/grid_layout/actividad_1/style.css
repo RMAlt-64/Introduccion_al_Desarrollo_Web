@@ -1,0 +1,11 @@
+.container-main{
+    display: grid;
+    
+    
+    gap: 2px;
+}
+
+.img5{
+    height: 400px;
+    width: 300px;
+}

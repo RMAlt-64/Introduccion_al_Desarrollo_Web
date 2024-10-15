@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+}
+
+.flex-item{ 
+    /* Sabemos que el ancho del flex item depende la el contenido  */
+    border: solid brown 1px; 
+    margin: 2px;
+
+    /* Si ahora intentamos dividir la página en 3 columnas iguales utilizando ﬂex-grow:1,
+    no obtendremos un resultado distinto al que vemos sobre los ﬂex-items 
+    porque el tamaño de la columna se calcula en función de su contenido. */
+    flex-grow: 1;
+    flex-basis: 0;
+    /* width: 50%; */
+}
+/* Aquí   tenemos   dos   opciones   para   evitar   esto.  Podemos  deﬁnir  un  ancho  sobre  la  columna, por ejemplo: */
+/* .item-2{width: 50%} */
+
+/* O podemos utilizar la propiedad ﬂex-basis. */

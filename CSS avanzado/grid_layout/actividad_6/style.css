@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "header header header header"
+    "menu menu menu menu"
+    "menuLateral main main siderbar"
+    "footer footer footer footer";
+    min-height: 100vh;
+    text-align: center;
+    text-decoration-style: dotted;
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(64, 233, 87);
+}
+.menuPricipal{
+    grid-area: menu;
+    background-color: rgb(169, 169, 202);
+}
+main{
+    grid-area: main;
+    background-color: rgb(38, 168, 147);
+    
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(245, 77, 222);
+}
+.menuLateral{
+    grid-area: menuLateral;
+    background-color:darkorange;
+    
+}
+.siderbar{
+    grid-area: siderbar;
+    background-color: blueviolet;
+   
+}
