@@ -1,0 +1,18 @@
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    transform: rotate(45deg) scale(1.5);
+    margin: 100px;
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 182, 58);
+    transform: rotate(30deg) scale(1.5);
+    transition: scale(3) 1s ease-in;
+    margin: 100px;
+}
+.box-2:hover{
+    transform: rotate(67deg) scale(2);
+}

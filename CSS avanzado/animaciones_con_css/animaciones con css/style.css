@@ -1,0 +1,20 @@
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 3em;
+    animation: move 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
